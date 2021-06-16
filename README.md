@@ -1,3 +1,3 @@
 # servlet-hello
 
-![](International Society of Automation.jpg)
+![](International-Society-of-Automation.jpg)
