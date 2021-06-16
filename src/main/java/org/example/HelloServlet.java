@@ -11,11 +11,14 @@ import java.io.PrintWriter;
 
 public class HelloServlet extends HttpServlet {
 
-    protected void doGet(HttpServletRequest request,
-                         HttpServletResponse response) throws ServletException, IOException
-    {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
         // Very simple - just return some plain text
         PrintWriter writer = response.getWriter();
         writer.print("Hello World");
+    }
+
+    public static void main(String[] args) throws Exception {
+        System.out.println("DONE.");
     }
 }
